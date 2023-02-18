@@ -48,6 +48,7 @@ body{
     width: 50%;
     border-radius: 10px;
     margin-bottom: 200px;
+    box-shadow: 0 0 100px #000;
 }
 h2{
     font-family:'Courier New', Courier, serif
