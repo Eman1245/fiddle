@@ -1,7 +1,38 @@
-html {
-    background: url(/img/gradiant.png) no-repeat center center fixed;
+html{
+    background: url(/img/aqua.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+body{
+    color:rgb(0, 0, 0);
+    font-size:60px;
+    font-style: initial;
+    text-align: center;
+}
+.images{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 75px;
+    margin: 125px;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px #000;
+    border-radius: 10px;
+}
+.dramatic{
+    font-style: italic;
+    color: darkred;
+}
+.move{
+    transition: transform 250ms;
+}
+.move:hover{
+    transform: scale(1.12);
+    box-shadow: 0px 8px 10px #000, 
+    -10px 8px 15px #000, 10px 8px 15px #000;
 }
