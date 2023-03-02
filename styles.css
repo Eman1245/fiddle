@@ -27,6 +27,7 @@ body{
 }
 .dramatic{
     font-style: italic;
+    font-size: 3.5vw;
     color: darkred;
     margin-top: 100px;
     margin-left: 100px;
@@ -51,8 +52,12 @@ body{
     margin-bottom: 200px;
     box-shadow: 0 0 100px #000;
 }
+h1{
+    font-size: 5vw;
+}
 h2{
-    font-family:'Courier New', Courier, serif
+    font-family:'Courier New', Courier, serif;
+    font-size: 2.5vw;
 }
 :any-link{
     color: darkblue;
