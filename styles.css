@@ -54,3 +54,6 @@ body{
 h2{
     font-family:'Courier New', Courier, serif
 }
+:any-link{
+    color: darkblue;
+}
