@@ -7,6 +7,16 @@ html{
     margin: 130px;
 }
 
+.splash{
+    font-display: 100vh;
+    font-style: italic;
+    font-size: 3.5vw;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+}
+
 body{
     color:rgb(0, 0, 0);
     font-size:60px;
